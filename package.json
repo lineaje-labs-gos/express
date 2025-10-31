@@ -1,7 +1,7 @@
 {
   "name": "express",
   "description": "Sinatra inspired web development framework",
-  "version": "3.21.2",
+  "version": "3.21.2-lineaje-01",
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "contributors": [
     "Aaron Heckmann <aaron.heckmann+github@gmail.com>",
@@ -9,10 +9,17 @@
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Guillermo Rauch <rauchg@gmail.com>",
     "Jonathan Ong <me@jongleberry.com>",
-    "Roman Shtylman <shtylman+expressjs@gmail.com"
+    "Roman Shtylman <shtylman+expressjs@gmail.com",
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
   ],
   "license": "MIT",
-  "repository": "strongloop/express",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/express"
+  },
   "homepage": "http://expressjs.com/",
   "keywords": [
     "express",
